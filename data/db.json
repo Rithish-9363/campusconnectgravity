@@ -1,0 +1,404 @@
+{
+  "users": [
+    {
+      "id": "usr_student_1",
+      "name": "Alex Rivera",
+      "email": "alex.student@campus.edu",
+      "password": "$2a$10$tY7eAsyvvaYj8LlX.A/wp.kcR7ib9dcu6.B5gdqN4g0tkSEsbE56i",
+      "role": "student",
+      "department": "Computer Science & AI",
+      "year": "3rd Year",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+      "interests": [
+        "Technology",
+        "Hackathons",
+        "Workshops",
+        "AI",
+        "Gaming"
+      ],
+      "createdAt": "2026-11-20T22:01:05.054Z"
+    },
+    {
+      "id": "usr_organiser_1",
+      "name": "Sarah Chen",
+      "email": "sarah.lead@campus.edu",
+      "password": "$2a$10$tY7eAsyvvaYj8LlX.A/wp.w75CoVgPojddIrary6NJ2KkQRkbLxxi",
+      "role": "organiser",
+      "department": "School of Computing & Engineering",
+      "title": "President, Student Council & Tech Lead",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=250",
+      "interests": [
+        "Leadership",
+        "Technology",
+        "Career"
+      ],
+      "createdAt": "2026-11-20T22:01:05.056Z"
+    },
+    {
+      "id": "usr_student_2",
+      "name": "Marcus Johnson",
+      "email": "marcus.student@campus.edu",
+      "password": "$2a$10$tY7eAsyvvaYj8LlX.A/wp.kcR7ib9dcu6.B5gdqN4g0tkSEsbE56i",
+      "role": "student",
+      "department": "Design & Media Arts",
+      "year": "2nd Year",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+      "interests": [
+        "Cultural",
+        "Arts",
+        "Workshops",
+        "Music"
+      ],
+      "createdAt": "2026-11-20T22:01:05.056Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_1",
+      "title": "HackCampus 2026: 24-Hour AI & Web3 Sprint",
+      "description": "The flagship annual hackathon of CampusConnect! Build disruptive projects in AI agents, decentralized tech, and sustainability. $10,000 in prizes, free food, mentor workshops, and exclusive sponsor swag.",
+      "category": "Hackathons",
+      "date": "2026-11-20",
+      "time": "09:00 AM - 09:00 AM (+1 Day)",
+      "venue": "Campus Innovation Center, Grand Hall A",
+      "banner": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 120,
+      "registeredCount": 114,
+      "interestedCount": 280,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Sarah Chen (Tech Council)",
+      "featured": true,
+      "tags": [
+        "AI",
+        "Hackathon",
+        "Coding",
+        "Prizes",
+        "Team"
+      ],
+      "agenda": [
+        "09:00 AM - Check-in & Team Formation",
+        "11:00 AM - Keynote & Hacking Begins",
+        "08:00 PM - Mentor Pitch Sessions",
+        "09:00 AM (+1) - Demos & Winner Ceremony"
+      ],
+      "createdAt": "2026-11-15T22:01:05.056Z"
+    },
+    {
+      "id": "evt_2",
+      "title": "NextGen AI & Autonomous Agents Masterclass",
+      "description": "Deep dive into building multi-agent systems, LLM fine-tuning, and real-world retrieval augmented generation (RAG) pipelines. Hosted by visiting industry engineers from Google DeepMind & OpenAI.",
+      "category": "Technology",
+      "date": "2026-11-20",
+      "time": "02:00 PM - 04:30 PM",
+      "venue": "Turing Hall, Computer Science Block",
+      "banner": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 80,
+      "registeredCount": 78,
+      "interestedCount": 195,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Sarah Chen (Tech Council)",
+      "featured": true,
+      "tags": [
+        "AI",
+        "DeepLearning",
+        "Workshop",
+        "Tech"
+      ],
+      "agenda": [
+        "02:00 PM - Foundations of Autonomous Agents",
+        "03:15 PM - Live Coding: Building your First Agent",
+        "04:00 PM - Q&A and Career Networking"
+      ],
+      "createdAt": "2026-11-16T22:01:05.056Z"
+    },
+    {
+      "id": "evt_3",
+      "title": "Annual Inter-College Esports Arena Tournament",
+      "description": "Cheer or compete in Valorant, EA FC, and Rocket League showdowns! Live casting on the arena mega-screens, gaming equipment stations, and cash trophies for winning collegiate squads.",
+      "category": "Gaming",
+      "date": "2026-11-21",
+      "time": "11:00 AM - 07:00 PM",
+      "venue": "Student Recreation Complex, Arena 2",
+      "banner": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 150,
+      "registeredCount": 138,
+      "interestedCount": 310,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Campus Esports Guild",
+      "featured": false,
+      "tags": [
+        "Gaming",
+        "Esports",
+        "Valorant",
+        "Tournament"
+      ],
+      "agenda": [
+        "11:00 AM - Qualifier Brackets",
+        "03:00 PM - Semi-Finals Live Stream",
+        "05:30 PM - Grand Finals & Trophy Ceremony"
+      ],
+      "createdAt": "2026-11-17T22:01:05.056Z"
+    },
+    {
+      "id": "evt_4",
+      "title": "Campus Sunset Acoustic Jam & Open Mic",
+      "description": "Unwind under the dusk sky with acoustic melodies, indie bands, spoken word poetry, and complimentary artisan coffee. Open mic slots available for student singers and instrumentalists.",
+      "category": "Cultural",
+      "date": "2026-11-23",
+      "time": "05:30 PM - 08:30 PM",
+      "venue": "Amphitheater Lawn & Lakeview Deck",
+      "banner": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 200,
+      "registeredCount": 145,
+      "interestedCount": 220,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Music & Cultural Society",
+      "featured": true,
+      "tags": [
+        "Music",
+        "Acoustic",
+        "OpenMic",
+        "Relax",
+        "Coffee"
+      ],
+      "agenda": [
+        "05:30 PM - Welcome & Indie Band Opening",
+        "06:30 PM - Student Open Mic Performances",
+        "08:00 PM - Acoustic Jam Session"
+      ],
+      "createdAt": "2026-11-18T22:01:05.056Z"
+    },
+    {
+      "id": "evt_5",
+      "title": "UI/UX Design Sprint: Figma to Production Systems",
+      "description": "Learn modern design token systems, responsive auto-layout, micro-interactions, and component architecture used by high-growth startups. Bring your laptop with Figma installed.",
+      "category": "Workshops",
+      "date": "2026-11-25",
+      "time": "10:00 AM - 01:00 PM",
+      "venue": "Design Studio Lab 3, Fine Arts Wing",
+      "banner": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 50,
+      "registeredCount": 48,
+      "interestedCount": 120,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Design Collective",
+      "featured": false,
+      "tags": [
+        "Design",
+        "Figma",
+        "UI/UX",
+        "Portfolio"
+      ],
+      "agenda": [
+        "10:00 AM - Design System Foundations",
+        "11:15 AM - Interactive Prototyping Challenge",
+        "12:30 PM - Portfolio Critiques"
+      ],
+      "createdAt": "2026-11-18T22:01:05.056Z"
+    },
+    {
+      "id": "evt_6",
+      "title": "Tech Career Fair & Executive Networking Night",
+      "description": "Connect directly with recruiters from top engineering firms, FinTech giants, and venture-backed startups. Resume reviews on the spot, fast-track interview vouchers, and LinkedIn headshots.",
+      "category": "Career",
+      "date": "2026-11-28",
+      "time": "01:00 PM - 06:00 PM",
+      "venue": "University Grand Exhibition Center",
+      "banner": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 300,
+      "registeredCount": 260,
+      "interestedCount": 450,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Career & Placement Cell",
+      "featured": true,
+      "tags": [
+        "Career",
+        "Internships",
+        "Jobs",
+        "Networking"
+      ],
+      "agenda": [
+        "01:00 PM - Company Booths Open",
+        "03:00 PM - Panel: Cracking the 2026 Tech Interview",
+        "04:30 PM - 1-on-1 Speed Networking"
+      ],
+      "createdAt": "2026-11-19T22:01:05.056Z"
+    },
+    {
+      "id": "evt_7",
+      "title": "Campus 3v3 Basketball Showdown",
+      "description": "High energy 3-on-3 half-court basketball bracket. Fast-paced 12-minute games, prizes for champions and 3-point contest winners, plus DJ beats courtside.",
+      "category": "Sports",
+      "date": "2026-12-02",
+      "time": "04:00 PM - 08:00 PM",
+      "venue": "Sports Pavilion Courts 1 & 2",
+      "banner": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 64,
+      "registeredCount": 64,
+      "interestedCount": 160,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Athletic Department",
+      "featured": false,
+      "tags": [
+        "Sports",
+        "Basketball",
+        "Fitness",
+        "Tournament"
+      ],
+      "agenda": [
+        "04:00 PM - Player Warmups & Roll Call",
+        "04:30 PM - Knockout Rounds",
+        "07:15 PM - Championship Game & Awards"
+      ],
+      "createdAt": "2026-11-17T22:01:05.056Z"
+    },
+    {
+      "id": "evt_8",
+      "title": "Contemporary Student Art & Sculpture Showcase",
+      "description": "An exhibition celebrating visual artists on campus. Showcasing digital art, oil canvas, physical kinetic sculptures, and interactive light installations. Wine and mocktails served.",
+      "category": "Arts",
+      "date": "2026-12-06",
+      "time": "03:00 PM - 07:00 PM",
+      "venue": "Campus Gallery of Modern Art",
+      "banner": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 100,
+      "registeredCount": 42,
+      "interestedCount": 95,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Fine Arts Society",
+      "featured": false,
+      "tags": [
+        "Art",
+        "Exhibition",
+        "Culture",
+        "Gallery"
+      ],
+      "agenda": [
+        "03:00 PM - Gallery Walkthrough",
+        "04:30 PM - Artist Statement Discussions",
+        "06:00 PM - Audience Choice Voting"
+      ],
+      "createdAt": "2026-11-19T22:01:05.056Z"
+    },
+    {
+      "id": "evt_9",
+      "title": "Full-Stack Robotics & Drone Flight Workshop",
+      "description": "Hands-on programming of autonomous micro-drones using ROS (Robot Operating System) and computer vision. Hardware kits provided for all registered teams.",
+      "category": "Workshops",
+      "date": "2026-11-25",
+      "time": "01:00 PM - 05:00 PM",
+      "venue": "Robotics Research Lab 102",
+      "banner": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 35,
+      "registeredCount": 31,
+      "interestedCount": 88,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Sarah Chen (Tech Council)",
+      "featured": false,
+      "tags": [
+        "Robotics",
+        "Drones",
+        "Hardware",
+        "ROS"
+      ],
+      "agenda": [
+        "01:00 PM - Drone Aerodynamics & Safety",
+        "02:00 PM - Computer Vision Navigation",
+        "04:00 PM - Obstacle Course Flight Test"
+      ],
+      "createdAt": "2026-11-18T22:01:05.056Z"
+    },
+    {
+      "id": "evt_10",
+      "title": "Alumni Tech Founders Round Table",
+      "description": "Learn directly from campus alumni who built YC-backed companies, secured Series A funding, and transitioned from dorm-room projects to global tech businesses.",
+      "category": "Career",
+      "date": "2026-11-19",
+      "time": "06:00 PM - 08:30 PM",
+      "venue": "Executive Seminar Hall",
+      "banner": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80&w=1200",
+      "seatLimit": 100,
+      "registeredCount": 100,
+      "interestedCount": 240,
+      "organiserId": "usr_organiser_1",
+      "organiserName": "Entrepreneurship Cell",
+      "featured": false,
+      "tags": [
+        "Startups",
+        "Founders",
+        "Alumni",
+        "Venture"
+      ],
+      "agenda": [
+        "Completed event"
+      ],
+      "createdAt": "2026-11-13T22:01:05.056Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg_101",
+      "eventId": "evt_1",
+      "userId": "usr_student_1",
+      "userName": "Alex Rivera",
+      "userEmail": "alex.student@campus.edu",
+      "userDepartment": "Computer Science & AI",
+      "ticketCode": "CC-AI-9482",
+      "status": "confirmed",
+      "registeredAt": "2026-11-18T22:01:05.057Z"
+    },
+    {
+      "id": "reg_102",
+      "eventId": "evt_2",
+      "userId": "usr_student_1",
+      "userName": "Alex Rivera",
+      "userEmail": "alex.student@campus.edu",
+      "userDepartment": "Computer Science & AI",
+      "ticketCode": "CC-AGNT-3174",
+      "status": "confirmed",
+      "registeredAt": "2026-11-19T22:01:05.057Z"
+    }
+  ],
+  "interests": [
+    {
+      "userId": "usr_student_1",
+      "eventId": "evt_3"
+    },
+    {
+      "userId": "usr_student_1",
+      "eventId": "evt_4"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "usr_student_1",
+      "title": "Event Starting Today!",
+      "message": "HackCampus 2026 starts today at 09:00 AM in the Innovation Center.",
+      "type": "reminder",
+      "eventId": "evt_1",
+      "read": false,
+      "createdAt": "2026-11-20T22:01:05.057Z"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_student_1",
+      "title": "Registration Confirmed",
+      "message": "You have secured seat #78 for NextGen AI & Autonomous Agents Masterclass.",
+      "type": "confirmation",
+      "eventId": "evt_2",
+      "read": true,
+      "createdAt": "2026-11-19T22:01:05.057Z"
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_organiser_1",
+      "title": "High Demand Alert",
+      "message": "HackCampus 2026 has reached 95% capacity (114/120 seats booked).",
+      "type": "alert",
+      "eventId": "evt_1",
+      "read": false,
+      "createdAt": "2026-11-20T22:01:05.057Z"
+    }
+  ]
+}
